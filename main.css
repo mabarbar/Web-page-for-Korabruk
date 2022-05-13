@@ -1,0 +1,380 @@
+html, body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+    scroll-behavior: smooth;
+}
+
+#container
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 66px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border: #078511 solid 1px;
+}
+
+.logoMain
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66px;
+    font-size: 24px;
+    font-weight: 700;
+    float: left;
+    border: #078511 solid 1px;
+}
+
+.przycisk1
+{
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 445px;
+    float: left;
+}
+
+.przycisk2
+{
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 445px;
+    float: left;
+}
+
+.przycisk2
+{
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 445px;
+    float: left;
+}
+
+.przycisk2
+{
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 54px;
+    float: left;
+}
+
+.przycisk3
+{
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 54px;
+    float: left;
+}
+
+.przycisk4
+{
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 54px;
+    float: left;
+    color: #078511;
+}
+
+#image_background
+{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    text-align: center;
+    height: 1115px;
+    background-color: #f2f3f5;
+}
+
+
+.textPicture
+{
+    width: 956px;
+    height: 190px;
+    line-height: 95px;
+    text-align: left;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 80%;
+    transform: translate(-100%, -50%);
+    font-size: 76px;
+    font-weight: 600;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#content
+{
+    height: 544px;
+}
+
+.description
+{
+    height: 60px;
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.ourOffer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.textDiv
+{
+    padding: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text
+{
+    display: flex;
+    align-items: center;
+    line-height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#benefits
+{
+    height: 937px;
+    background-color: #f2f3f5;
+}
+
+.heading
+{
+    clear: both;
+    text-align: center;
+    padding: 55px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.icons
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+}
+
+.pictogram
+{
+    float: left;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+.sheading
+{
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sheadingText
+{
+    float: left;
+    width: 305px;
+    padding: 23px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.textHeadingDiv
+{
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    height: 96px;
+    width: 1035px;
+}
+
+.textHeading
+{
+    margin-left: 28px;
+    text-align: left;
+    float: left;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #676c73;
+}
+
+.realizations
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1071px;
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25)) drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
+}
+
+.photos
+{
+    float: left;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+#contact
+{
+    height: 289px;
+}
+
+.textContact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 152px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.phoneNumber
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 34px;
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25)) drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25));
+}
+
+#footer
+{
+    height: 435px;
+    background-color: #45484D;
+}
+
+.logoFooter
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 87px;
+    width: 1056px;
+    font-weight: 700;
+    font-size: 34px;
+    color: #CED2D9;
+}
+
+.span
+{
+    position:relative;
+    bottom:-60%;
+    right:0;
+}
+
+.textFooter
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 1056px;
+    color: #CED2D9;
+}
+
+.footerDiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textFooterDiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    height: 60px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #CED2D9;
+}
+
+.emptyFooterDiv
+{
+    width: 218px;
+}
+
+.copyright
+{
+    padding: 64px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CED2D9;
+}
