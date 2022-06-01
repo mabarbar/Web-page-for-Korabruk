@@ -161,6 +161,32 @@ a:hover {
   font-weight: 900;
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: -100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
