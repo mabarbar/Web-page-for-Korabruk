@@ -163,6 +163,11 @@ a:hover {
     justify-content: space-between;
     padding: 20px;
   }
+
+  .welcomingImageText {
+    font-size: 8vw;
+    top: 45vh;
+  }
 }
 
 ///
@@ -175,19 +180,25 @@ a:hover {
 
 .ourService p {
   margin: 3.625rem 3.625rem 0 3.625rem;
-  // border: 2px red solid;
 }
 
 .ourService ul {
   padding: 3.625rem;
-  // border: 2px red solid;
 }
 
 .ourService li {
   list-style-type: none;
   padding: 0.75rem;
-  // border: 2px red solid;
-  // width: 1024px;
+}
+
+@media (max-width: 768px) {
+  .ourService ul {
+    padding: 1rem;
+  }
+
+  .ourService p {
+    margin: 3.625rem 1rem 1rem 1rem;
+  }
 }
 
 .ourService li::before {

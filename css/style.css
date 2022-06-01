@@ -173,6 +173,10 @@ a:hover {
             justify-content: space-between;
     padding: 20px;
   }
+  .welcomingImageText {
+    font-size: 8vw;
+    top: 45vh;
+  }
 }
 
 .container {
@@ -195,6 +199,15 @@ a:hover {
 .ourService li {
   list-style-type: none;
   padding: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .ourService ul {
+    padding: 1rem;
+  }
+  .ourService p {
+    margin: 3.625rem 1rem 1rem 1rem;
+  }
 }
 
 .ourService li::before {
