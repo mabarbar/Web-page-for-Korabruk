@@ -6,6 +6,7 @@
 
 body {
   font-family: inter;
+  font-weight: 500;
   width: 100%;
 }
 
@@ -41,11 +42,11 @@ nav h1 {
   align-self: center;
 }
 
-ul {
+.navButtons ul {
   list-style-type: none;
 }
 
-li {
+.navButtons li {
   display: inline;
   margin-inline: 1.6875rem;
 }
@@ -164,11 +165,51 @@ a:hover {
   }
 }
 
-.ourService {
+///
+
+.container {
   display: flex;
   justify-content: center;
+  // border: 2px red solid;
 }
 
 .ourService p {
+  margin: 3.625rem 3.625rem 0 3.625rem;
+  // border: 2px red solid;
+}
+
+.ourService ul {
   padding: 3.625rem;
+  // border: 2px red solid;
+}
+
+.ourService li {
+  list-style-type: none;
+  padding: 0.75rem;
+  // border: 2px red solid;
+  // width: 1024px;
+}
+
+.ourService li::before {
+  content: "•";
+  color: green;
+}
+
+.ourService li:first-child::before {
+  content: "";
+}
+
+/// aboutUs ///
+
+#aboutUs {
+
+  width: 100%;
+  // border: 2px red solid;
+  background-color: #F2F3F5;
+}
+
+#aboutUs p {
+  text-align: center;
+  margin: 4.5rem 3.625rem 2.375rem 3.625rem;
+  // border: 2px red solid;
 }
