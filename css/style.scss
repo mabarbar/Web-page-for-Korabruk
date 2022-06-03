@@ -27,7 +27,6 @@ nav {
   height: 4rem;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   background-color: white;
-  border: 1px green solid;
 }
 
 nav h1 {
@@ -118,6 +117,18 @@ a:hover {
   top: 8px;
 }
 
+.hamburger--active .hamburger__inner {
+  background-color: transparent;
+}
+
+.hamburger--active .hamburger__inner:before {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger--active .hamburger__inner:after {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
 @media (min-width: 769px) {
   .hamburger {
     display: none;
@@ -151,18 +162,20 @@ a:hover {
   color: white;
   font-weight: 900;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35))
-  drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
-  animation-duration: 3s;
-  animation-name: slidein;
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+  animation-name: slidein;  
+  animation-duration: 2.5s;
 }
 
 @keyframes slidein {
   from {
-    margin-left: -100%;
+    opacity: 0;
+    margin-left: -75%;
     width: 100%;
   }
-
+  
   to {
+    opacity: 1;
     margin-left: 0%;
     width: 100%;
   }
@@ -194,15 +207,20 @@ a:hover {
 
 .ourService p {
   margin: 3.625rem 3.625rem 0 3.625rem;
+  // border: 2px red solid;
 }
 
 .ourService ul {
   padding: 3.625rem;
+  // margin: 0 30vmin;
+  border: 2px red solid;
 }
 
 .ourService li {
   list-style-type: none;
+  width: 60vw;
   padding: 0.75rem;
+  border: 2px red solid;
 }
 
 @media (max-width: 768px) {
