@@ -103,6 +103,7 @@ a:hover {
   height: 2px;
   background-color: black;
   position: absolute;
+  border-radius: 1px;
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -115,6 +116,11 @@ a:hover {
   height: 2px;
   background-color: black;
   position: absolute;
+  border-radius: 1px;
+  -webkit-transition: -webkit-transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: -webkit-transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 200ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
   content: "";
   left: 0;
 }
@@ -232,23 +238,23 @@ a:hover {
 }
 
 .ourService p {
+  font-size: 1.25rem;
   margin: 3.625rem 3.625rem 0 3.625rem;
 }
 
 .ourService ul {
+  font-size: 1.25rem;
   padding: 3.625rem;
-  border: 2px red solid;
 }
 
 .ourService li {
   list-style-type: none;
-  width: 60vw;
   padding: 0.75rem;
-  border: 2px red solid;
 }
 
 @media (max-width: 768px) {
   .ourService ul {
+    font-size: 1rem;
     padding: 1rem;
   }
   .ourService p {
@@ -259,10 +265,6 @@ a:hover {
 .ourService li::before {
   content: "•";
   color: green;
-}
-
-.ourService li:first-child::before {
-  content: "";
 }
 
 #aboutUs {
