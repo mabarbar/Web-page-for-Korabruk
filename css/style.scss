@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: inter;
   font-weight: 500;
   width: 100%;
+  // font-size: 1.25rem;  zastanowić się
 }
 
 /// nawigacja ///
@@ -109,7 +111,6 @@ a:hover {
   transition: transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
   content: "";
   left: 0;
-  
 }
 
 .hamburger__inner::before {
@@ -166,7 +167,7 @@ a:hover {
   font-weight: 900;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35))
     drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
-  animation-name: slidein;  
+  animation-name: slidein;
   animation-duration: 2.5s;
 }
 
@@ -176,7 +177,7 @@ a:hover {
     margin-left: -75%;
     width: 100%;
   }
-  
+
   to {
     opacity: 1;
     margin-left: 0%;
@@ -202,9 +203,14 @@ a:hover {
 
 ///
 
-.container {
+@mixin cont {
   display: flex;
   justify-content: center;
+  // border: 2px red solid;
+}
+
+#container1 {
+  @include cont;
   // border: 2px red solid;
 }
 
@@ -234,6 +240,7 @@ a:hover {
   }
 
   .ourService p {
+    font-size: 1rem;
     margin: 3.625rem 1rem 1rem 1rem;
   }
 }
@@ -243,19 +250,33 @@ a:hover {
   color: green;
 }
 
-.ourService li:first-child::before {
+// .ourService li:first-child::before {
+// }
+
+.ourService b {
+  color: #222;
 }
 
 /// aboutUs ///
 
-#aboutUs {
-  width: 100%;
+#container2 {
+  @include cont;
   // border: 2px red solid;
-  background-color: #f2f3f5;
 }
 
-#aboutUs p {
+.aboutUs {
+  width: 100%;
+  // border: 2px red solid;
+  background-color: #F2F3F5;  // zastanowić się nad kolorem może ciemniejszy??
+}
+
+.aboutUs h2 {
+  color: #222;
   text-align: center;
   margin: 4.5rem 3.625rem 2.375rem 3.625rem;
   // border: 2px red solid;
 }
+
+/// contact ///
+
+/// footer ///

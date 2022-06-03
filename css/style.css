@@ -4,6 +4,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -228,7 +229,7 @@ a:hover {
   }
 }
 
-.container {
+#container1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -258,6 +259,7 @@ a:hover {
     padding: 1rem;
   }
   .ourService p {
+    font-size: 1rem;
     margin: 3.625rem 1rem 1rem 1rem;
   }
 }
@@ -267,12 +269,26 @@ a:hover {
   color: green;
 }
 
-#aboutUs {
-  width: 100%;
-  background-color: #f2f3f5;
+.ourService b {
+  color: #222;
 }
 
-#aboutUs p {
+#container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aboutUs {
+  width: 100%;
+  background-color: #F2F3F5;
+}
+
+.aboutUs h2 {
+  color: #222;
   text-align: center;
   margin: 4.5rem 3.625rem 2.375rem 3.625rem;
 }
