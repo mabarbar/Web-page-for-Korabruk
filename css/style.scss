@@ -12,6 +12,19 @@ body {
   // font-size: 1.25rem;  zastanowić się
 }
 
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  outline: 1px solid slategrey;
+}
+
 /// nawigacja ///
 
 header {
@@ -48,8 +61,12 @@ nav h1 {
 }
 
 .navButtons li {
-  display: inline;
+  display: inline-block;
   margin-inline: 1.6875rem;
+}
+.navButtons a {
+  display: block; // makes it easier to click, works because of inline-block, just inline wouldnt work
+  line-height: 4rem;
 }
 
 a {
@@ -267,7 +284,7 @@ a:hover {
 .aboutUs {
   width: 100%;
   // border: 2px red solid;
-  background-color: #F2F3F5;  // zastanowić się nad kolorem może ciemniejszy??
+  background-color: #f2f3f5; // zastanowić się nad kolorem może ciemniejszy??
 }
 
 .aboutUs h2 {
