@@ -158,12 +158,12 @@ a:hover {
 
 /// welcoming image ///
 
-.welcomingImageContainer img {
+.heroSection img {
   height: 100vh;
   position: relative;
 }
 
-.image {
+.heroSectionImage {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -172,7 +172,7 @@ a:hover {
   object-fit: cover;
 }
 
-.welcomingImageText {
+.heroSectionText {
   position: absolute;
   font-size: 6.5vw;
   top: 35vh;
@@ -212,7 +212,7 @@ a:hover {
     padding: 20px;
   }
 
-  .welcomingImageText {
+  .heroSectionText {
     font-size: 8vw;
     top: 45vh;
   }
