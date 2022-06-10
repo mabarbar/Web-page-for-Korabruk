@@ -13,20 +13,6 @@ body {
   width: 100%;
 }
 
-body::-webkit-scrollbar {
-  width: 1em;
-}
-
-body::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #bbb;
-  outline: 1px solid slategrey;
-}
-
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -304,86 +290,6 @@ a:hover {
 .aboutUs {
   width: 100%;
   height: 100vh;
-  background-color: #fbbbbb;
-}
-
-@-webkit-keyframes slidy {
-  0% {
-    left: 0%;
-  }
-  20% {
-    left: 0%;
-  }
-  25% {
-    left: -100%;
-  }
-  45% {
-    left: -100%;
-  }
-  50% {
-    left: -200%;
-  }
-  70% {
-    left: -200%;
-  }
-  75% {
-    left: -300%;
-  }
-  95% {
-    left: -300%;
-  }
-  100% {
-    left: -400%;
-  }
-}
-
-@keyframes slidy {
-  0% {
-    left: 0%;
-  }
-  20% {
-    left: 0%;
-  }
-  25% {
-    left: -100%;
-  }
-  45% {
-    left: -100%;
-  }
-  50% {
-    left: -200%;
-  }
-  70% {
-    left: -200%;
-  }
-  75% {
-    left: -300%;
-  }
-  95% {
-    left: -300%;
-  }
-  100% {
-    left: -400%;
-  }
-}
-
-#slider {
-  overflow: hidden;
-}
-
-#slider figure img {
-  width: 20%;
-  float: left;
-}
-
-#slider figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  -webkit-animation: 5s slidy infinite;
-          animation: 5s slidy infinite;
+  background-color: #f2f3f5;
 }
 /*# sourceMappingURL=style.css.map */
