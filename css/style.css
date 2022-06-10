@@ -8,6 +8,7 @@
 }
 
 body {
+  color: #222;
   font-family: inter;
   font-weight: 500;
   width: 100%;
@@ -274,10 +275,6 @@ a:hover {
   color: green;
 }
 
-.ourService b {
-  color: #222;
-}
-
 #container2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -302,13 +299,13 @@ a:hover {
           column-count: 3;
   -webkit-column-width: 325px;
           column-width: 325px;
-  -webkit-column-gap: 4rem;
-          column-gap: 4rem;
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
   text-align: center;
   padding: 0 4rem 4rem;
 }
 
-@media (max-width: 1230px) {
+@media (max-width: 1167px) {
   .columnGrid {
     -webkit-column-count: 1;
             column-count: 1;
