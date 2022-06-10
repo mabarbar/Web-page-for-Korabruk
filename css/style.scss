@@ -284,7 +284,6 @@ a:hover {
 .aboutUs {
   width: 100%;
   background-color: #f2f3f5;
-  // border: 2px red solid;
 }
 
 .aboutUs h2 {
@@ -292,14 +291,33 @@ a:hover {
   padding: 3.625rem;
 }
 
-.aboutUs ul {
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
+.columnGrid {
+  column-count: 3;
+  column-width: 325px;
+  column-gap: 4rem;
+  text-align: center;
+  padding: 0 4rem 4rem;
 }
 
-.pictograms {
-  float: left;
+@media (max-width: 1230px) {
+  .columnGrid {
+    column-count: 1;
+  }
+}
+
+.columnGrid h3 {
+  padding: 1rem;
+}
+
+.columnGrid div {
+  display: flex;
+  justify-content: center;
+  break-inside: avoid;
+}
+
+.columnGrid p {
+  max-width: 500px;
+  margin-bottom: 2rem;
 }
 
 /// slider ///
