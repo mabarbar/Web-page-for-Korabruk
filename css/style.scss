@@ -283,9 +283,23 @@ a:hover {
 
 .aboutUs {
   width: 100%;
-  height: 100vh;
   background-color: #f2f3f5;
   // border: 2px red solid;
+}
+
+.aboutUs h2 {
+  text-align: center;
+  padding: 3.625rem;
+}
+
+.aboutUs ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.pictograms {
+  float: left;
 }
 
 /// slider ///
