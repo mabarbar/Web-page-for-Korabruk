@@ -242,6 +242,7 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  scroll-margin-top: 4em;
 }
 
 .ourService p {
@@ -282,6 +283,7 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  scroll-margin-top: 4em;
 }
 
 .aboutUs {
@@ -330,5 +332,39 @@ a:hover {
 .columnGrid p {
   max-width: 500px;
   margin-bottom: 2rem;
+}
+
+.contact {
+  text-align: center;
+  font-size: 1.5rem;
+  border: 1px solid red;
+}
+
+.contact {
+  padding: 3rem;
+  border: 1px solid red;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.phoneNumber {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  margin: 0 auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    font-size: 1.25rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

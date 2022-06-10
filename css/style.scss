@@ -224,6 +224,7 @@ a:hover {
 @mixin cont {
   display: flex;
   justify-content: center;
+  scroll-margin-top: 4em;
   // border: 2px red solid;
 }
 
@@ -368,4 +369,33 @@ a:hover {
 
 /// contact ///
 
+.contact {
+  text-align: center;
+  font-size: 1.5rem;
+  border: 1px solid red;
+}
+
+.contact {
+  padding: 3rem;
+  border: 1px solid red;
+
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.phoneNumber {
+  display: flex;
+  width: 200px;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    font-size: 1.25rem;
+  }
+}
 /// footer ///
