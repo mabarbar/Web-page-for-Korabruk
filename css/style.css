@@ -408,4 +408,12 @@ footer {
           align-items: center;
   margin-bottom: 4rem;
 }
+
+.copyRight {
+  text-align: center;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
 /*# sourceMappingURL=style.css.map */
