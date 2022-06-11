@@ -40,7 +40,7 @@ nav {
   background-color: white;
 }
 
-nav h1 {
+h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -337,12 +337,7 @@ a:hover {
 .contact {
   text-align: center;
   font-size: 1.5rem;
-  border: 1px solid red;
-}
-
-.contact {
   padding: 3rem;
-  border: 1px solid red;
 }
 
 .nowrap {
@@ -366,5 +361,51 @@ a:hover {
   .contact {
     font-size: 1.25rem;
   }
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #E6EBF2;
+  background-color: #45484D;
+  font-weight: 400;
+}
+
+.footerContent {
+  margin-top: 3.5rem;
+  width: 60%;
+}
+
+.footerContent p {
+  margin: 1.5rem 0 3rem 0;
+  font-weight: 400;
+}
+
+.footerUlIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footerIcons img {
+  float: left;
+}
+
+.footerContent li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4rem;
 }
 /*# sourceMappingURL=style.css.map */
