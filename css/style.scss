@@ -397,8 +397,8 @@ a:hover {
 footer {
   display: flex;
   justify-content: center;
-  color: #E6EBF2;
-  background-color: #45484D;
+  color: #e6ebf2;
+  background-color: #45484d;
   font-weight: 400;
   // border: 1px red solid;
 }
@@ -422,8 +422,20 @@ footer {
   // border: 1px red solid;
 }
 
-.footerIcons img {
+@media (max-width: 1024px) {
+  .footerContent {
+    width: 80%;
+  }
+
+  .footerUlIcons {
+    display: list-item;
+    ;
+  }
+}
+
+.footerUlIcons img {
   float: left;
+  margin-right: 0.5rem;
   // border: 1px red solid;
 }
 
@@ -431,6 +443,10 @@ footer {
   display: flex;
   align-items: center;
   margin-bottom: 4rem;
+  // border: 1px red solid;
+}
+.widthBox {
+  max-width: 115px;
   // border: 1px red solid;
 }
 
