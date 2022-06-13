@@ -380,6 +380,7 @@ a:hover {
 }
 
 .phoneNumber {
+  text-decoration: underline;
   display: flex;
   width: 200px;
   margin: 0 auto;
@@ -422,6 +423,18 @@ footer {
   // border: 1px red solid;
 }
 
+.footerUlIcons a,
+.footerUlIcons a:active,
+.footerUlIcons a:before,
+.footerUlIcons a:after {
+  color: #e6ebf2;
+}
+
+.footerUlIcons a:hover,
+.footerUlIcons a:focus {
+  color: #e6ebf274;
+}
+
 @media (max-width: 1024px) {
   .footerContent {
     width: 80%;
@@ -429,7 +442,6 @@ footer {
 
   .footerUlIcons {
     display: list-item;
-    ;
   }
 }
 
@@ -446,7 +458,7 @@ footer {
   // border: 1px red solid;
 }
 .widthBox {
-  max-width: 115px;
+  max-width: 160px;
   // border: 1px red solid;
 }
 

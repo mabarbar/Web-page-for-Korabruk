@@ -345,6 +345,7 @@ a:hover {
 }
 
 .phoneNumber {
+  text-decoration: underline;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -395,6 +396,18 @@ footer {
           justify-content: space-between;
 }
 
+.footerUlIcons a,
+.footerUlIcons a:active,
+.footerUlIcons a:before,
+.footerUlIcons a:after {
+  color: #e6ebf2;
+}
+
+.footerUlIcons a:hover,
+.footerUlIcons a:focus {
+  color: #e6ebf274;
+}
+
 @media (max-width: 1024px) {
   .footerContent {
     width: 80%;
@@ -420,7 +433,7 @@ footer {
 }
 
 .widthBox {
-  max-width: 115px;
+  max-width: 160px;
 }
 
 .copyRight {
