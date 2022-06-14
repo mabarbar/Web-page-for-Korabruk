@@ -154,7 +154,7 @@ a:hover {
           transform: translateY(-8px) rotate(-45deg);
 }
 
-@media (min-width: 769px) {
+@media screen and (min-width: 769px) {
   .hamburger {
     display: none;
   }
@@ -219,7 +219,7 @@ a:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .navButtons {
     display: none;
   }
@@ -260,7 +260,7 @@ a:hover {
   padding: 0.75rem;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .ourService ul {
     font-size: 1rem;
     padding: 1rem;
@@ -307,7 +307,7 @@ a:hover {
   padding: 0 4rem 4rem;
 }
 
-@media (max-width: 1167px) {
+@media screen and (max-width: 1167px) {
   .columnGrid {
     -webkit-column-count: 1;
             column-count: 1;
@@ -358,7 +358,7 @@ a:hover {
           align-items: center;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .contact {
     font-size: 1.25rem;
   }
@@ -408,7 +408,7 @@ footer {
   color: #e6ebf274;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .footerContent {
     width: 80%;
   }
