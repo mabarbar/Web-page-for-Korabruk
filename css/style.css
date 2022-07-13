@@ -114,8 +114,9 @@ a:hover {
 }
 
 .hamburger--active {
-  -webkit-transform: translateX(-250px);
-          transform: translateX(-250px);
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  z-index: 1;
 }
 
 .hamburger__box {
@@ -183,7 +184,7 @@ a:hover {
 .navhamb {
   height: 100vh;
   width: 250px;
-  background-color: #222;
+  background-color: #fff;
   position: absolute;
   top: 0;
   right: 0;
@@ -204,11 +205,6 @@ a:hover {
 .navButtonsHamb li {
   margin-bottom: 20px;
   margin-left: 20px;
-}
-
-.navButtonsHamb li a {
-  text-decoration: none;
-  color: #f2f3f5;
 }
 
 .heroSection img {
