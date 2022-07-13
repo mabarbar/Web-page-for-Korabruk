@@ -14,6 +14,14 @@ body {
   width: 100%;
 }
 
+::-moz-selection {
+  background: rgba(149, 191, 64, 0.6);
+}
+
+::selection {
+  background: rgba(149, 191, 64, 0.6);
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,6 +106,18 @@ a:hover {
   margin: 0;
 }
 
+.hamburger .navhamb {
+  -webkit-transition: -webkit-transform 0.3s 0.1s ease-in-out;
+  transition: -webkit-transform 0.3s 0.1s ease-in-out;
+  transition: transform 0.3s 0.1s ease-in-out;
+  transition: transform 0.3s 0.1s ease-in-out, -webkit-transform 0.3s 0.1s ease-in-out;
+}
+
+.hamburger--active {
+  -webkit-transform: translateX(-250px);
+          transform: translateX(-250px);
+}
+
 .hamburger__box {
   width: 30px;
   height: 24px;
@@ -158,6 +178,37 @@ a:hover {
   .hamburger {
     display: none;
   }
+}
+
+.navhamb {
+  height: 100vh;
+  width: 250px;
+  background-color: #222;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translatex(250px);
+          transform: translatex(250px);
+}
+
+.navhamb--active {
+  -webkit-transform: translate(0px);
+          transform: translate(0px);
+}
+
+.navButtonsHamb {
+  margin-top: 50px;
+  list-style: none;
+}
+
+.navButtonsHamb li {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.navButtonsHamb li a {
+  text-decoration: none;
+  color: #f2f3f5;
 }
 
 .heroSection img {

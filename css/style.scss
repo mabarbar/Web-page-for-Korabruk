@@ -13,6 +13,10 @@ body {
   // font-size: 1.25rem;  zastanowić się
 }
 
+::selection {
+  background: hsla(80, 50%, 50%, 0.6);
+}
+
 // body::-webkit-scrollbar {
 //   width: 1em;
 // }
@@ -99,6 +103,14 @@ a:hover {
   margin: 0;
 }
 
+.hamburger .navhamb {
+  transition: transform 0.3s 0.1s ease-in-out;
+}
+
+.hamburger--active {
+  transform: translateX(-250px);
+}
+
 .hamburger__box {
   width: 30px;
   height: 24px;
@@ -154,6 +166,35 @@ a:hover {
 @media screen and (min-width: 769px) {
   .hamburger {
     display: none;
+  }
+}
+
+.navhamb {
+  height: 100vh;
+  width: 250px;
+  background-color: #222;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translatex(250px);
+}
+
+.navhamb--active {
+  transform: translate(0px);
+}
+
+.navButtonsHamb {
+  margin-top: 50px;
+  list-style: none;
+}
+
+.navButtonsHamb li {
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+  a {
+    text-decoration: none;
+    color: #f2f3f5;
   }
 }
 
