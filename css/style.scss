@@ -18,6 +18,10 @@ body {
   background: hsla(80, 50%, 50%, 0.6);
 }
 
+br {
+  color: #222;
+}
+
 // body::-webkit-scrollbar {
 //   width: 1em;
 // }
@@ -196,8 +200,9 @@ a:hover {
 }
 
 .navButtonsHamb li {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   margin-left: 40px;
+  border-bottom: lightgray 1px solid;
 
   // a {
   //   text-decoration: none;
@@ -345,14 +350,14 @@ a:hover {
   padding: 0 4rem 4rem;
 }
 
+.columnGrid img {
+  padding: 2rem;
+}
+
 @media screen and (max-width: 1167px) {
   .columnGrid {
     column-count: 1;
   }
-}
-
-.columnGrid h3 {
-  padding: 1rem;
 }
 
 .columnGrid div {

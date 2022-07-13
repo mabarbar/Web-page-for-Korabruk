@@ -24,6 +24,10 @@ body {
   background: rgba(149, 191, 64, 0.6);
 }
 
+br {
+  color: #222;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -209,8 +213,9 @@ a:hover {
 }
 
 .navButtonsHamb li {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   margin-left: 40px;
+  border-bottom: lightgray 1px solid;
 }
 
 .heroSection img {
@@ -360,15 +365,15 @@ a:hover {
   padding: 0 4rem 4rem;
 }
 
+.columnGrid img {
+  padding: 2rem;
+}
+
 @media screen and (max-width: 1167px) {
   .columnGrid {
     -webkit-column-count: 1;
             column-count: 1;
   }
-}
-
-.columnGrid h3 {
-  padding: 1rem;
 }
 
 .columnGrid div {
