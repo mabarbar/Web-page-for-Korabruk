@@ -10,7 +10,8 @@ body {
   font-family: inter;
   font-weight: 500;
   width: 100%;
-  // font-size: 1.25rem;  zastanowić się
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 ::selection {
@@ -103,7 +104,8 @@ a:hover {
   margin: 0;
 }
 
-.hamburger, .navhamb {
+.hamburger,
+.navhamb {
   transition: transform 0.3s 0.01s ease-in-out;
 }
 
@@ -168,6 +170,10 @@ a:hover {
   .hamburger {
     display: none;
   }
+
+  .navhamb {
+    display: none;
+  }
 }
 
 .navhamb {
@@ -185,13 +191,13 @@ a:hover {
 }
 
 .navButtonsHamb {
-  margin-top: 50px;
+  margin-top: 100px;
   list-style: none;
 }
 
 .navButtonsHamb li {
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 40px;
 
   // a {
   //   text-decoration: none;
