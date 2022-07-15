@@ -441,7 +441,7 @@ a:hover {
 .phoneNumber {
   text-decoration: underline;
   display: flex;
-  width: 200px;
+  width: 210px;
   margin: 0 auto;
   justify-content: space-around;
   align-items: center;
@@ -449,7 +449,10 @@ a:hover {
 
 @media screen and (max-width: 768px) {
   .contact {
-    font-size: 1.25rem;
+    font-size: 1rem;
+  }
+  .phoneNumber {
+    width: 160px;
   }
 }
 /// footer ///
