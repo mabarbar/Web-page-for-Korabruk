@@ -16,6 +16,11 @@ body {
   max-width: 100%;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 ::-moz-selection {
   background: rgba(149, 191, 64, 0.6);
 }
